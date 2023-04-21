@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Покупка</title>
+</head>
+<body>
+<form method="post">
+    <p><input th:value="${items.getName()}" name="name"></p>
+    <p><input th:value="${items.getUrl()}" name="url"></p>
+    <p><input th:value="${items.getPrice()}" name="price"></p>
+    <p><input th:value="${items.getDisc()}" name="disc"></p>
+    <p><button type="submit">Оставить заявку</button> </p>
+</form>
+</body>
+</html>
